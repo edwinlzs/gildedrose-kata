@@ -15,6 +15,7 @@ describe GildedRose do
 
       it 'should be string' do
         expect(items[0].to_s).to be_a(String)
+        expect(items[0].to_s).to eq "foo, 1, 1"
       end
 
       it 'decreases SellIn value' do
